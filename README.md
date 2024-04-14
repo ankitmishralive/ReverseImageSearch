@@ -1,4 +1,4 @@
-# Fashion Recommender: Image Reverse Search  using ResNet 
+#  Reverse Image Search - Fashion Recommender using ResNet 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
