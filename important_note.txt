@@ -1,0 +1,24 @@
+The line expanded_features = np.expand_dims(img) 
+is used to add an extra dimension to the image array. 
+In many machine learning frameworks, including Keras and TensorFlow, 
+models expect input data to be in a specific shape or format.
+
+In this case, the ResNet50 model expects input images to have a 
+shape of (batch_size, height, width, channels), where:
+
+batch_size: The number of images being processed simultaneously. 
+This dimension allows models to process multiple images in parallel for efficiency.
+height: The height of the image.
+width: The width of the image.
+channels: The number of color channels in the image (e.g., 3 for RGB images).
+The np.expand_dims(img) function is used to add an extra dimension 
+to the image array to match the required shape. By default, 
+np.expand_dims() adds a new axis at position 0,
+ effectively converting a 3D array (representing the image) to a 4D array. 
+ This additional dimension represents the batch size, 
+ even if it's just a single image being processed.
+
+So, the purpose of expanding the dimension is to make the 
+input image compatible with the input shape expected by the model.
+ It's a common preprocessing step when feeding images into neural networks,
+  ensuring that the model processes the data correctly.

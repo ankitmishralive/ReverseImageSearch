@@ -1,0 +1,9 @@
+
+images/
+myntradataset/
+myenv/
+sample/
+test.py
+styles.csv
+embeddings.pkl
+filenames.pkl

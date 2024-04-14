@@ -1,0 +1,42 @@
+
+------------- Reverse Image Search --------
+
+Pinterest 
+Ecommerce 
+
+
+---------------Plan of Attack--------------
+
+1.) Importing Model -> Resnet  trained on dataset known as Imageset or else 
+use CNN Model But Training krne time lagta & Accuracy bhi zyaada high nahi hota 
+It is high performing CNN model 
+
+Q. If model we will not be training then why we need that Model , 
+
+The Model we are using for to extract  Features  
+As humko  1 input jayega 44k Image data mai jo closest hoga vo dedega 
+
+
+That's why We will do Feature Extraction from every image 
+
+
+
+2.) Extract Features 
+
+3.) Export features
+
+4.) jo 5 nearest neighbour honge humare input image ke  usko hie recommend krdenge 
+
+
+
+
+
+
+Input jo rhega vo resnet lega 
+& resnet kya krega vo input image ka feature generate krega 
+then ush feature ke dimension se euclidean distance calculate krenge baki saare 44k images se 
+& jo top 5 closest dimensions kaun hai saare 44k image data mai 
+& vahi 5 closest image recommend krdega 
+
+
+
